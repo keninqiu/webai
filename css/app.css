@@ -1,0 +1,61 @@
+.menu-text {
+    color: yellow;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.flex-small {
+	max-width:50px;
+    margin: 0px 0;
+    padding: 3px 3px 3px 3px;
+}
+
+.flex-big {
+	max-width:202px;
+    margin: 0px 0;
+    padding: 3px 3px 3px 3px;	
+}
+
+.group-small {
+    font-size: 26px;
+    margin: 0px 0;
+    padding: 3px 3px 3px 3px;
+    color: rgb(49, 46, 46);
+    background-color: rgba(224, 224, 224, 0.96);
+    text-transform: none;
+    font-weight: 400;
+    min-height:50px;
+    min-width:50px;
+}
+
+.group-big {
+    font-size: 26px;
+    margin: 0px 0;
+    padding: 3px 3px 3px 3px;
+    color: rgb(49, 46, 46);
+    background-color: rgba(255, 255, 255, 0.96);
+    text-transform: none;
+    font-weight: 400;
+    height:100px;
+    width:100px;
+
+}
+
+.group-big.left {
+    border-left: 1px solid #4CAF50;
+    border-top: 1px solid #4CAF50;
+    border-bottom: 1px solid #4CAF50;
+    border-right: 1px solid #4CAF50;
+    overflow: hidden;
+    margin-right:-1px; 
+    margin-bottom:-1px;
+}
+
+.group-big.right {
+    border-left: 1px solid #4CAF50;
+    border-top: 1px solid #4CAF50;
+    border-right: 1px solid #4CAF50;
+    border-bottom: 1px solid #4CAF50;
+    overflow: hidden;
+    margin-right:-1px; 
+    margin-bottom:-1px;
+}

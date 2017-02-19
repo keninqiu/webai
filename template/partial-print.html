@@ -1,0 +1,40 @@
+<div layout="row">
+  <div class="flex-small">
+  	<md-button class="group-small" aria-label="Settings" ng-click="addLayer=true">
+  	<md-icon md-svg-src="img/icons/new.svg"></md-icon>
+  	</md-button>
+  </div>
+  <div flex class="flex-big" ng-show="addLayer">
+  	<div layout="row">
+	  	<md-button class="group-big left" aria-label="Settings" ng-click="uploadFileDialog($event)">
+	  	<md-icon md-svg-src="img/icons/new.svg"></md-icon>
+	  	</md-button>  	
+
+	  	<md-button class="group-big right" aria-label="Settings" ng-click="draw($event)">
+	  	<md-icon md-svg-src="img/icons/new.svg"></md-icon>
+	  	</md-button>  			  		  	
+  	</div>
+  	<div layout="row">
+	  	<md-button class="group-big left" aria-label="Settings" ng-click="addLayer=true">
+	  	<md-icon md-svg-src="img/icons/new.svg"></md-icon>
+	  	</md-button>  	
+	  	<md-button class="group-big right" aria-label="Settings" ng-click="addLayer=true">
+	  	<md-icon md-svg-src="img/icons/new.svg"></md-icon>
+	  	</md-button>  			  		  	
+  	</div>
+  	<div layout="row">
+	  	<md-button class="group-big left" aria-label="Settings" ng-click="addLayer=true">
+	  	<md-icon md-svg-src="img/icons/new.svg"></md-icon>
+	  	</md-button>  	
+	  	<md-button class="group-big right" aria-label="Settings" ng-click="addLayer=true">
+	  	<md-icon md-svg-src="img/icons/new.svg"></md-icon>
+	  	</md-button>  			  		  	
+  	</div>  	
+  </div>
+  <div flex>
+<input type="file" id="file" name="file" ap-file-src="src" ng-show="false">
+<canvas id="myCanvas" width="300" height="400" style="border:1px solid #000000;">
+</canvas>
+  </div>
+</div>
+
